@@ -29,6 +29,10 @@ export default createGlobalStyle`
 a{
     text-decoration: none;
 }
+button:hover{
+	background-color: purple;
+	color: white;
+    }
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
