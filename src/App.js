@@ -7,17 +7,16 @@ import TechnologyPage from "./Pages/TechnologyPage/TechnologyPage"
 import ContactPage from "./Pages/ContactPage/ContactPage"
 import GlobalHeader from "./components/GlobalHeader/GlobalHeader"
 export default function App (){
-
-    return (
-            <BrowserRouter>
-                <ResetCSS/>
-                    <GlobalHeader />
-                    <Routes>
-                            <Route path="/" element={<AboutPage />}/>
-                            <Route path="/Projets" element={<ProjetsPage />}/>
-                            <Route path="/Technology" element={<TechnologyPage />}/>
-                            <Route path="/Contact" element={<ContactPage />}/>
-                    </Routes> 
-            </BrowserRouter>
-    );
+return (
+        <BrowserRouter>
+        <ResetCSS/>
+                <GlobalHeader />
+                <Routes>
+                        <Route path="/" element={<AboutPage />}/>
+                        <Route path="/Projets" element={<ProjetsPage />}/>
+                        <Route path="/Technology" element={<TechnologyPage />}/>
+                        <Route path="/Contact" element={<ContactPage />}/>
+                </Routes> 
+        </BrowserRouter>
+);
 };
